@@ -217,11 +217,6 @@ window.onload = function () {
     location.reload();
     }
   }
-
-  var press(kPress) {
-    var down = kPress.charCode || kPress.keyCode;
-      console.log(down);
-    }
 }
 
 
