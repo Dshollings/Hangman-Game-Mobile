@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Star Wars Hangman</title>
+  <link rel = "stylesheet"type = "text/css" href = "assets/css/reset.css"/>
+  <link rel = "stylesheet"type = "text/css" href = "assets/css/style.css"/>
+  <link href="https://fonts.googleapis.com/css?family=Poller+One|Raleway" rel="stylesheet">
+  <script src="https://use.fontawesome.com/321a08e92c.js"></script>
+  <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+	<header>
+		<h1>Star Wars Hangman</h1>
+	</header>
+	<container class = "col-container">	
+		<section class= "col-3" id= "wl">
+			<img class="logo" src="assets/images/SW-Logo.png" alt="Star Wars Logo">
+			<div class= "col-2" id="win-col">
+				<h2 class="fa fa-rebel" aria-hidden="true"> Wins</h2>
+				<hr>
+				<ul class="score" id="wins"></ul>
+			</div>
+			<div class= "col-2" id= "loss-col">
+				<h2 class="fa fa-empire" aria-hidden="true"> Losses</h2>
+				<hr>
+				<div class="score" id="losses"></div>
+			</div>
+		</section>
+		<section class="col-3" id= "mid-col">
+			<img class="logo" src="assets/images/SW-Logo.png" alt="Star Wars Logo">
+			<h2>Pick a letter to get started!</h2>
+			<container id= "game">
+				<div id= "tray"></div>
+			</container>
+			<h2 id="message">May The Force Be With You</h2>
+		</section>
+		<section class="col-3" id= "guesses">
+			<img class="logo" src="assets/images/SW-Logo.png" alt="Star Wars Logo">
+			<h3>Guesses Remaining:</h3>
+			<hr>
+			<p id= "remaining"></p>
+			<hr>
+			<h3 id="pickPrompt">Pick a letter to get started!</h3>
+			<hr>
+			<div id="keyDisplay"></div>
+		</section>
+	</container>
+	<footer>
+		<button id="reset">Play again</button>
+		<div id="foot">
+			<p>&copy;david shollingsworth</p>
+			<br>
+			<p>| 2017 | </p>
+		</div>
+	</footer>
+
+</body>
