@@ -155,10 +155,14 @@ footer {
 }
 
 @media only screen and (max-width: 750px) {
+    
+	header{
+		display: none;
+	}
     .col-3 {
     	width: 100%;
     }
-    #wl .logo{
+    #mid-col .logo{
     	display: none;
     }
 
